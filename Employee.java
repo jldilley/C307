@@ -2,6 +2,7 @@
 Primary Author: Dr. Olatunde Abiona
 Date: 1/21/2026
 Compiler: Apache Net Beans IDE 24
+Source Code: Employee.java
 Project: Example Program Employee
 Action: Creates a class for Employee objects
 */
@@ -27,3 +28,4 @@ public class Employee
     {System.out.println(Name + " is working as a/an " + Job + ".");}        
     
 }
+

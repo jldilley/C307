@@ -1,0 +1,1 @@
+Hi! Welcome to my Git page. These are mostly projects that are assigned to me by my professors. Some of them are my personal projects and some of them are projects from the text book Absolute Java which I am reading through. 

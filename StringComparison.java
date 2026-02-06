@@ -8,7 +8,7 @@ The objects will utilize a GUI that accepts two strings. The user then presses
 a button that will display the largest string in a text field in the dialog
 box. The dialog box has an exit button to leave the program.
  */
-package c307;
+//package c307;
 
 import javax.swing.*;
 import java.awt.*;
@@ -87,16 +87,22 @@ public class StringComparison extends JFrame
             Str1 = StringOneTF.getText();
             Str2 = StringTwoTF.getText();
             
+            if(Str1.compareTo(Str2) > 0)
+                LargestStringTF.setText(Str1);
+            else
+                LargestStringTF.setText(Str2);
+/*            
             if(Str1.length() > Str2.length())
                 LargestStringTF.setText(Str1);
             else if(Str1.length() == Str2.length())
                 LargestStringTF.setText("The Strings are the same length. ");
             else
                 LargestStringTF.setText(Str2);
+*/            
         }        
     }
 /* *******************ExitButtonHandler****************************************
-    Author: Dr. Olatunde Abiona
+    Author: Joshua Dilley
     Action: closes out program when pressed
     Parameters: none
     return: nothing is returned to the main

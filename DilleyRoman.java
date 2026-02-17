@@ -3,11 +3,9 @@ Date: 02/16/2026
 Compiler: Apache NetBeans IDE 24
 Assignment: Assignment Three 
 Source Code: DilleyRoman.java
-Action: create and test a class that converts a Roman numeral from a String
-to an integer. The object will allow the user to create a Roman numeral. The 
-roman numeral will be stored in to memory as a String. When prompted, the 
-Roman numeral will be converted and stored as an integer. The class allows
-the object to be displayed as a Roman numeral or an integer.
+Action: class and driver for creating Roman numerals. Stores 
+the object in memory as a Roman numeral String and as an integer.
+Methods to access and display.  
  */
 package c307;
 
@@ -202,3 +200,4 @@ d
 1666
 
 ------------------------------------------------------------------------------*/
+
